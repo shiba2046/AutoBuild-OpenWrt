@@ -39,7 +39,7 @@ jobs:
         docker rmi `docker images -q`
         echo "Deleting files, please wait ..."
         sudo -E apt-get -y purge \
-          azure-cli \
+          # azure-cli \
           ghc* \
           zulu* \
           hhvm \
