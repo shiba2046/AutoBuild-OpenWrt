@@ -13,9 +13,9 @@ on:
   repository_dispatch:
   workflow_dispatch:
   
-  push:
-    branches: 
-      - master
+  # push:
+  #   branches: 
+  #     - master
 
   # schedule:
   #   - cron: 0 19 * * *
@@ -39,6 +39,7 @@ jobs:
       run : |
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --global user.name "github-actions[bot]"
+        git config --global pull.ff only
         
     - name: Start Syncing Autobuild Most Updated Changes
       run: git pull https://github.com/esirplayground/AutoBuild-OpenWrt.git --log --no-commit
