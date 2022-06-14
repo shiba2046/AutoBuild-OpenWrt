@@ -1,0 +1,22 @@
+[bot] AutoMerging: merge all upstream's changes:
+
+# By eSir
+# Via GitHub
+* https://github.com/esirplayground/AutoBuild-OpenWrt:
+  Update Build_OP_NanoPi_R2S.yml
+  Update NanoPi_R2S.config
+  Update Nanopi_R4S.config
+  Update x86.config
+  Update x86_64.config
+  Update Build_OP_Nanopi_R4S.yml
+  Update Build_OP_NanoPi_R2S.yml
+  Update Build_OP_Nanopi_R4S.yml
+  Update Build_OP_Newifi_D2.yml
+  Update Build_OP_Redmi_AC2100.yml
+  Update Build_OP_x86.yml
+  Update Build_OP_x86_64.yml
+
+# Conflicts:
+#	.github/workflows/Build_OP_Newifi_D2.yml
+#	.github/workflows/Build_OP_Redmi_AC2100.yml
+#	x86_64.config
